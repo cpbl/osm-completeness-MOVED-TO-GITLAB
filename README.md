@@ -12,10 +12,10 @@ cores, but below we provide output data files in case you don't want
 do all the computation.  If you do want to run the full processing
 sequence, you might simply rent time on Amazon AWS or its ilk.
 
-This code repository should reside permanently here: https://github.com/cpbl/osm-completeness (if not there, look here: https://alum.mit.edu/www/cpbl/PLoS2017roads/osm-completeness)
+This code repository should reside permanently here: https://github.com/cpbl/osm-completeness (if not there, look here: https://alum.mit.edu/www/cpbl/publications/PLOS2017roads/osm-completeness)
 
 It replicates the PLOS One paper version (See the permanent link
-https://alum.mit.edu/www/cpbl/PLoS2017roads). However, it is adapted to:
+https://alum.mit.edu/www/cpbl/publications/PLOS2017roads). However, it is adapted to:
 (i) Use the data files from the PLOS One SI
 (ii) Simplify the paths and dependencies
 

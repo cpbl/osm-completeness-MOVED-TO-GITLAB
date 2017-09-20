@@ -57,7 +57,7 @@ If you only want to run the parametric fits in Step 5, you can skip this step.
 Most users will **not** want to do this. It takes 3-4 weeks on a 50-core server, and requires you to set up a PostgreSQL database with the Global Administrative Areas boundary files. 
 
 Instead, you can use the premade files: `osmCompleteness_level*.hd5`, 
-provided at https://alum.mit.edu/www/cpbl/PLoS2017roads
+provided at https://alum.mit.edu/www/cpbl/publications/PLoS2017roads
 Specifically,  you should unzip [this file](http://sprawl.research.mcgill.ca/PLoS2017/Barrington-Leigh-Millard-Ball-PLoSOne2017-data-release-all.zip) *inside* your copy of the osm-completeness code repository folder:
 
 ```

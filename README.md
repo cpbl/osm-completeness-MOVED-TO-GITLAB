@@ -58,11 +58,11 @@ Most users will **not** want to do this. It takes 3-4 weeks on a 50-core server,
 
 Instead, you can use the premade files: `osmCompleteness_level*.hd5`, 
 provided at https://alum.mit.edu/www/cpbl/publications/PLOS2017roads
-Specifically,  you should unzip [this file](http://sprawl.research.mcgill.ca/PLOS2017/Barrington-Leigh-Millard-Ball-PLOSOne2017-data-release-all.zip) *inside* your copy of the osm-completeness code repository folder:
+Specifically,  you should unzip [this file](http://sprawl.research.mcgill.ca/publications/PLOS2017roads/Barrington-Leigh-Millard-Ball-PLoSOne2017-data-release-all.zip) *inside* your copy of the osm-completeness code repository folder:
 
 ```
-wget http://sprawl.research.mcgill.ca/PLOS2017/Barrington-Leigh-Millard-Ball-PLOSOne2017-data-release-all.zip
-unzip Barrington-Leigh-Millard-Ball-PLOSOne2017-data-release-all.zip
+wget http://sprawl.research.mcgill.ca/publications/PLOS2017roads/Barrington-Leigh-Millard-Ball-PLoSOne2017-data-release-all.zip
+unzip Barrington-Leigh-Millard-Ball-PLoSOne2017-data-release-all.zip
 ```
 
 This will put the premade files `osmCompleteness_level*.hd5` in your working folder (specified in `history_config.py`), and the remaining steps will run fine.
@@ -95,7 +95,7 @@ wget https://alum.mit.edu/www/cpbl/publications/PLOS2017roads/countries_compiled
 ```
 
 or, alternatively, unzip the file
-http://sprawl.research.mcgill.ca/PLOS2017/Barrington-Leigh-Millard-Ball-PLOSOne2017-data-release-small.zip
+http://sprawl.research.mcgill.ca/publications/PLOS2017roads/Barrington-Leigh-Millard-Ball-PLoSOne2017-data-release-small.zip
 *inside* your copy of the osm-completeness code repository folder.
 
 If you don't want to run `process_raw.py` (very likely), download `osmCompleteness_level*.hd5` to your `working` folder:
@@ -108,7 +108,7 @@ wget https://alum.mit.edu/www/cpbl/publications/PLOS2017roads/osmHistory_level-1
 wget https://alum.mit.edu/www/cpbl/publications/PLOS2017roads/osmHistory_level1D.hd5
 
 All of the above data dependencies can be met simply by unzipping the file (n.b. "-all" rather than "-small")
-http://sprawl.research.mcgill.ca/PLOS2017/Barrington-Leigh-Millard-Ball-PLOSOne2017-data-release-all.zip
+http://sprawl.research.mcgill.ca/publications/PLOS2017roads/Barrington-Leigh-Millard-Ball-PLoSOne2017-data-release-all.zip
 *inside* your copy of the osm-completeness code repository folder.
 
 In order to run the parametric fits, you will also need to download the [Global Administrative Areas](http://gadm.org) boundary files and the [Landscan](http://web.ornl.gov/sci/landscan/landscan_data_avail.shtml) density raster to your `input` folder. The direct link to download the Global Administrative Areas data is [here](http://biogeo.ucdavis.edu/data/gadm2.8/gadm28.shp.zip). For Landscan, you will need to register in order to obtain access. Then, download `LandScan2013.zip` to your `input` folder.
